@@ -3,8 +3,9 @@
     border: 1px solid #95A0A7;
     border-radius: 8px;
     margin-bottom: 22px;
-    padding: 8px;
+    padding: 8px 25px 8px 8px;
     display: flex;
+    align-items: center;
 }
 
 .review-details {
@@ -45,4 +46,12 @@
     width: 55px;
     border-radius: 50%;
     background: rgba(235, 87, 87, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-icon{
+    color: #EB5757;
+    font-size: 27px;
 }
